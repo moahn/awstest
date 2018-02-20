@@ -1,0 +1,111 @@
+body {
+    max-width: 1024px;
+    margin: auto;
+    width: 100%
+}
+/*
+#main-mod div{
+    display: block;
+    position: initial!important;
+    width: 100%
+}
+*/
+#div-map{
+        position: initial!important;
+}
+@font-face {
+    font-family: SourceSansPro;
+    src: url('source-sans-pro/SourceSansPro-Regular.otf');
+}
+@font-face {
+    font-family: SourceSansPro;
+    src: url('source-sans-pro/SourceSansPro-Bold.otf');
+    font-weight: bold;
+}
+@font-face {
+    font-family: SourceSansPro;
+    src: url('source-sans-pro/SourceSansPro-Italic.otf');
+    font-style: italic;
+}
+@font-face {
+    font-family: SourceSansPro;
+    src: url('source-sans-pro/SourceSansPro-BoldItalic.otf');
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: SourceSansPro;
+    src: url('source-sans-pro/SourceSansPro-Light.otf');
+    font-weight: 300;
+}
+@font-face {
+    font-family: SourceSansPro;
+    src: url('source-sans-pro/SourceSansPro-LightItalic.otf');
+    font-style: italic;
+    font-weight: 300;
+}
+
+body {
+	font-family: SourceSansPro, "Trebuchet MS";
+	height: 100%;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+/*
+#submit{
+    background: black;
+    color: white;
+}
+*/
+.Width100{
+    width: 100%;
+}
+.testBox{
+           width: 93%;
+    margin: 2% 2%;
+    padding: 2% 1%;
+}
+.login-button{
+    display: inline-block;
+    background: black;
+    color: white;
+    width: 45%;
+    margin-left: 2%;
+    padding: 12px 4px 14px 2px;
+    text-align: center;
+    margin-top: 10%;
+    border-radius: 15px;
+}
+#login-home img{
+        margin: 6% 0%;
+}
+.hide{
+    display: none;
+}
+#dash-header{
+           width: 100%;
+    height: 80px;
+    margin-top: 15px;
+    background-color: #1ff4fc;
+}
+#dash-header ul{
+    display: inline-block;
+}
+#back{
+        margin-left: -20px;
+}
+#back i{
+    font-size: 3em;
+}
+#menu{
+    float: right;
+}
+#menu i{
+        font-size: 2em;
+    padding: 5px 20px 10px 11px;
+    margin-top: 3px;
+}
